@@ -20,13 +20,13 @@ def function2(word):
     Returns True if palindrome, False otherwise.
     Example: function2("madam") -> True
     """
-    word = word.lower().replace(" ", "")  # normalize by removing spaces & ignoring case
+    word = word.lower().replace(" ", "")
     return word == word[::-1]
 
 
 def function3(text):
     """
-    Author: Contributor 3
+    Author: Om
     Counts the number of vowels (a, e, i, o, u) in the given string.
     Example: function3("hello") -> 2
     """
@@ -44,7 +44,19 @@ def function4():
 
 # Driver (Admin will finalize later)
 if __name__ == "__main__":
-    print("String manipulation Project Running...")
-    sample = input("String to reverse: ")
-    print("Function1 (Reverse):", function1(sample))
+   print("String Manipulation Project Running...\n")
+    
+    sample = input("Enter a string: ")
+    
+    # Function 1: Reverse string
+    reversed_text = function1(sample)
+    print("Function1 (Reverse):", reversed_text)
+    
+    # Function 2: Check palindrome
+    is_palindrome = function2(sample)
+    print("Function2 (Palindrome Check):", is_palindrome)
+    
+    # Function 3: Count vowels
+    vowel_count = function3(sample)
+    print("Function3 (Vowel Count):", vowel_count)
     # Admin will call all contributed functions here
