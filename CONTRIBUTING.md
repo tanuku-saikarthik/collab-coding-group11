@@ -1,14 +1,14 @@
-# Math Utilities Project
+# String Manipulation Library Project
 
 ## 📌 Project Goal
 This project simulates a *collaborative coding environment* using GitHub.  
-Each team member contributes a unique function to build a *Math Utilities Library*.
+Each team member contributes a unique function to build a *String Manipulation Functions*.
 
 ## 🚀 Features
-- Factorial calculation
-- Prime number check
-- Fibonacci sequence
-- GCD (Greatest Common Divisor)
+- Reverse string
+- Palindrome
+- Vowels count
+- Word Frequency
 
 ## 👥 Team Structure
 - *Admin/Integrator* → Repository setup, merges, final driver code
