@@ -6,7 +6,7 @@ Thank you for contributing! To keep our collaboration smooth and easy, please fo
 
 ## How to Contribute
 
-### 1. Fork the Repository
+### 1. Clone the Repository
 - Clone:  
   ```bash
   git clone https://github.com/<your-username>/collab-coding-group11.git
