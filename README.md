@@ -2,6 +2,14 @@
 
 A collaborative coding repository for Group 11’s project, including test files and a main runner.
 
+## Team Members
+- **Tanuku Venkata Vishnu Sai Karthik (Admin)**
+- **Dhanraj**
+- **Jagadeesh T**
+- **Om Pratham**
+- **Vijay**
+
+---
 ## Contents
 - `main.py` — Main script to run the project (you can explain what it does).
 - `test_dhanraj.py`  
