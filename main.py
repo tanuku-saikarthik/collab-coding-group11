@@ -13,9 +13,16 @@ def function1(text):
     """
     return text[::-1]
 
-def function2():
-    # Contributor 2 will implement
-    pass
+def function2(word):
+    """
+    Author: Dhanraj
+    Checks if the given string is a palindrome.
+    Returns True if palindrome, False otherwise.
+    Example: function2("madam") -> True
+    """
+    word = word.lower().replace(" ", "")  # normalize by removing spaces & ignoring case
+    return word == word[::-1]
+
 
 def function3():
     # Contributor 3 will implement
