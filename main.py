@@ -1,13 +1,11 @@
 """
-Math Utilities Project
+String manipulation Project
 Collaborative coding assignment using GitHub workflow
 """
 
 # Placeholder functions (contributors will implement them)
 
-def function1():
-    # Contributor 1 will implement
-    
+def function1(text):
     """
     Author: Jagadeesh T
     Returns the reverse of the given string.
@@ -29,8 +27,8 @@ def function4():
 
 
 # Driver (Admin will finalize later)
-if _name_ == "_main_":
-    print("Math Utilities Project Running...")
-    sample = input("string to reverse: ")
-    print("Function1 (Reverse of 'hello world'):", function1(sample))
-    # Admin will call all contributed functions here
+if __name__ == "__main__":
+    print("String manipulation Project Running...")
+    sample = input("String to reverse: ")
+    print("Function1 (Reverse):", function1(sample))
+    # Admin will call all contributed functions here
