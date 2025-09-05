@@ -24,9 +24,18 @@ def function2(word):
     return word == word[::-1]
 
 
-def function3():
-    # Contributor 3 will implement
-    pass
+def function3(text):
+    """
+    Author: Contributor 3
+    Counts the number of vowels (a, e, i, o, u) in the given string.
+    Example: function3("hello") -> 2
+    """
+    vowels = "aeiou"
+    count = 0
+    for char in text.lower():
+        if char in vowels:
+            count += 1
+    return count
 
 def function4():
     # Contributor 4 will implement
