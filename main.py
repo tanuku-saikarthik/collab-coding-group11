@@ -7,7 +7,13 @@ Collaborative coding assignment using GitHub workflow
 
 def function1():
     # Contributor 1 will implement
-    pass
+    
+    """
+    Author: Jagadeesh T
+    Returns the reverse of the given string.
+    Example: function1("hello") -> "olleh"
+    """
+    return text[::-1]
 
 def function2():
     # Contributor 2 will implement
@@ -25,4 +31,6 @@ def function4():
 # Driver (Admin will finalize later)
 if _name_ == "_main_":
     print("Math Utilities Project Running...")
+    sample = input("string to reverse: ")
+    print("Function1 (Reverse of 'hello world'):", function1(sample))
     # Admin will call all contributed functions here
