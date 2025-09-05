@@ -1,13 +1,21 @@
 """
-Math Utilities Project
+String Manipulation Project
 Collaborative coding assignment using GitHub workflow
 """
 
-# Placeholder functions (contributors will implement them)
+# Contributor 1 - Function 1: Factorial of a number
+def function1(n: int) -> int:
+    """
+    Returns the factorial of a non-negative integer n.
+    Example: factorial(5) = 120
+    """
+    if n < 0:
+        raise ValueError("Factorial is not defined for negative numbers")
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
 
-def function1():
-    # Contributor 1 will implement
-    pass
 
 def function2():
     # Contributor 2 will implement
@@ -23,6 +31,6 @@ def function4():
 
 
 # Driver (Admin will finalize later)
-if _name_ == "_main_":
-    print("Math Utilities Project Running...")
-    # Admin will call all contributed functions here
+if __name__ == "__main__":
+    print("String Manipulation Project Running...")
+    print("Function1 (Factorial of 5):", function1(5))
