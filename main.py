@@ -37,14 +37,22 @@ def function3(text):
             count += 1
     return count
 
-def function4():
+def function4(text):
     # Contributor 4 will implement
-    pass
+    """
+    Author: Contributor 4
+    Returns the frequency of each character in the given string.
+    Example: function4("issssn") -> {'i': 1, 's': 4, 'n': 1}
+    """
+    freq = {}
+    for char in text:
+        freq[char] = freq.get(char, 0) + 1
+    return freq
 
 
 # Driver (Admin will finalize later)
 if __name__ == "__main__":
-   print("String Manipulation Project Running...\n")
+    print("String Manipulation Project Running...\n")
     
     sample = input("Enter a string: ")
     
@@ -59,4 +67,7 @@ if __name__ == "__main__":
     # Function 3: Count vowels
     vowel_count = function3(sample)
     print("Function3 (Vowel Count):", vowel_count)
-    # Admin will call all contributed functions here
+
+     # Function 4: Frequency of characters
+    freq_dict = function4(sample)
+    print("Function4 (Character Frequency):", freq_dict)
